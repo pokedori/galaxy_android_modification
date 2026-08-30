@@ -38,6 +38,7 @@ https://note.com/nekofuton/n/nae2421530dc1
 <br>
 
 ・Galaxy s22 ultraを削除する際のコマンド例<br>
+以下で削除するまえに、グーグル日本語入力をインストールすること、ギャラクシーのキーボードが消えます。<br>
 pm uninstall --user 0 com.nttdocomo.android.wipe<br>
 pm uninstall --user 0 com.nttdocomo.android.devicehelp<br>
 pm uninstall --user 0 com.nttdocomo.android.anshinsecurity<br>
