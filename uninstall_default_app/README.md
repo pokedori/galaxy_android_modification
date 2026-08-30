@@ -18,7 +18,7 @@ Windowsで、以下をinstallする<br>
 <br>
 ３．adb.exe shellで接続<br>
 　　→必要に応じて：Diagモード（\*#0808# > MTP )にする。<br>
-  　→USBデバッグモードにする。<br>
+　　→USBデバッグモードにする。<br>
 ４．docomoのパッケージを調べる<br>
 　　→pm list packages | grep docomo<br>
 ５．削除<br>
