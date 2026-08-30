@@ -16,21 +16,21 @@ Windowsで、以下をinstallする<br>
 <br>
 コマンドラインでアンインストールした場所へ移動<br>
 <br>
-３．adb.exe shellで接続<br>
+１．adb.exe shellで接続<br>
 　　→必要に応じて：Diagモード（\*#0808# > MTP )にする。<br>
   　→Diagモードができないなら、セキュリティおよびプライバシーの自動ブロッカーをオフにすること。<br>
-   →USBデバッグモードにする。<br>
-４．docomoのパッケージを調べる<br>
+　　→USBデバッグモードにする。<br>
+２．docomoのパッケージを調べる<br>
 　　→pm list packages | grep docomo<br>
-５．削除<br>
+３．削除<br>
 　　→pm uninstall --user 0 <パッケージ名><br>
-６．削除できないアプリ<br>
+４．削除できないアプリ<br>
 　　→android上でデバイス管理アプリとして設定されているので、解除してから消す必要がある。<br>
 　　com.nttdocomo.android.wipe<br>
 　　com.nttdocomo.android.remotelock<br>
-７．Galaxyのカレンダー<br>
+５．Galaxyのカレンダー<br>
 　　pm uninstall --user 0 com.samsung.android.calendar<br>
-８．ドコモのユーザー管理<br>
+６．ドコモのユーザー管理<br>
 　　pm uninstall --user 0 com.android.contacts<br>
 
 ・参考URL<br>
