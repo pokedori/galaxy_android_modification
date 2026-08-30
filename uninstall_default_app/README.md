@@ -5,7 +5,7 @@
 Windowsで、以下をinstallする<br>
 <br>
 ・Android USB Driver for Windowsのインストール<br>
-https://developer.samsung.com/mobile/android-usb-driver.html
+　https://developer.samsung.com/mobile/android-usb-driver.html
 <br>
 ・ツールをダウンロード<br>
 　https://developer.android.com/studio/releases/platform-tools<br>
